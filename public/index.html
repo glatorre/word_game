@@ -1,10 +1,25 @@
 <html>
-	<head></head>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="styles/style.css">
+	</head>
 	<body>
 		<div class="container">
-			<div>EN : <span id="en_word"></span></div>
-			<button id="but">Show</button>
-			<div>IT : <span id="it_word"></span></div>
+			<div class="row text-center">
+				<div class="col-lg-4 col-xs-12">
+					<h1>EN</h1>
+					<h2 id="en_word"></h2>
+				</div>
+				
+				<div class="col-lg-2 col-xs-12">
+					<button id="but" type="button" class="btn btn-warning btn-lg">Show</button>
+				</div>
+
+				<div class="col-lg-4 col-xs-12">
+					<h1>IT</h1>
+					<h2 id="it_word"></h2>
+				</div>
+			</div>
 		</div>
 		<script src="libs/jquery-1.11.3.min.js"></script>
 		<script src="js/main.js"></script>

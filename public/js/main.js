@@ -7,7 +7,8 @@ $(function() {
 
 	$("#but").click(function(){
 		if($("#but").text() == "Show"){
-			$("#it_word").text(word.it);
+			var it = word.it.toString().replace(/,/g, ', ');
+			$("#it_word").text(it);
 			$("#but").text("New Word");
 		}
 		else if($("#but").text() == "New Word"){

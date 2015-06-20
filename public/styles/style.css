@@ -1,0 +1,17 @@
+body{
+	color: white;
+}
+
+.container{
+	margin-top: 50px;
+}
+
+.row{
+	border-radius: 20px;
+	background-color: darkblue;
+	height: 400px;
+}
+
+#but{
+	margin-top: 50px;
+}
